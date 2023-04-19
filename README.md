@@ -5,7 +5,7 @@
 操作系统：Windows 10;
 ## 三.实验步骤和结果
 ### 1.安装Android Studio 4.1之上的版本，更好支持TensorFlow Lite
-![](https://github.com/Z-ZW-WXQ/course/raw/master/img/实验一 1.1.png)  
+![](https://github.com/Z-ZW-WXQ/course/raw/master/img/实验一 1.1.png) 
 ### 2.安装Jupyter Notebook和相关的Python环境，后续用于机器学习模型构建。
 
 ### 3.安装Visual Studio Code代码编辑器
