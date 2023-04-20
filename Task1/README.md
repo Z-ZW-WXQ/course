@@ -9,7 +9,7 @@
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/%E5%AE%9E%E9%AA%8C%E4%B8%80%201.2.png)
 ### 2.安装Jupyter Notebook和相关的Python环境，后续用于机器学习模型构建。
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/%E5%AE%9E%E9%AA%8C%E4%B8%80%202.1.png)
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/%E5%AE%9E%E9%AA%8C%E4%B8%80%202.1.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/%E5%AE%9E%E9%AA%8C%E4%B8%80%202.2.png)
 ### 3.安装Visual Studio Code代码编辑器
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/%E5%AE%9E%E9%AA%8C%E4%B8%80%203.1.png)
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/%E5%AE%9E%E9%AA%8C%E4%B8%80%203.2.png)
