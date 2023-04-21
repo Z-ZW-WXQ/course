@@ -108,7 +108,6 @@ SecondFragment.kt中加入代码：
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2138.png)
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2139.png)
 
-### 6.批注
 
 
 
