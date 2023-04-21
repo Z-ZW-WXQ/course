@@ -40,7 +40,7 @@
 这里发现可以将原来的@string/Hello_My_Kotlin，直接改为其他内容，不需要修改键值对  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2117.png)  
 修改效果如下：  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2118.png)  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2118.jpg)  
 ### 4.添加组件并完成交互代码
 #### 4.1设置代码自动补充  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2119.png)  
