@@ -109,7 +109,7 @@ SecondFragment.kt中加入代码：
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2139.png)
 
 ### 6.批注
-由于截图有些模糊，可到img文件夹下看，按顺序为211~219~2110~2140
+
 
 
 
