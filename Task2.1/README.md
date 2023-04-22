@@ -68,7 +68,7 @@ dependencies {
 但是当我输入这段代码时出现，var 报错，改为def后能正常下载依赖  
 <br>在gradle.app中添加插件：  
 `id 'androidx.navigation.safeargs.kotlin'`
-<br>在gradle,project中添加插件：  
+<br>在gradle.project中添加插件：  
 `id 'androidx.navigation.safeargs.kotlin' version '2.5.3' apply false'`
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2125.png)  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2126.png)  
@@ -108,7 +108,6 @@ SecondFragment.kt中加入代码：
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2138.png)
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2139.png)
 
-### 6.批注
 
 
 
