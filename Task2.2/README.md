@@ -266,21 +266,21 @@ private fun captureVideo() {
 }
 ````
 在 startCamera() 中，将以下代码放置在 preview 创建行之后。这将创建 VideoCapture 用例。  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2218.png)   
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2217.png)   
 （可选）同样在 startCamera() 中，通过删除或注释掉以下代码来停用 imageCapture 和 imageAnalyzer 用例：  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2219.png)  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2218.png)  
 将 Preview + VideoCapture 用例绑定到生命周期相机。仍在 startCamera() 内，将 cameraProvider.bindToLifecycle() 调用替换为以下代码：  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2220.png)   
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2219.png)   
 录制一些剪辑：
 •	按“START CAPTURE”按钮。请注意，图片说明会变为“STOP CAPTURE”。
 •	录制几秒钟或几分钟的视频。
 •	按“STOP CAPTURE”按钮（和 start capture 按钮是同一个按钮）。
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2220.png)   
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2221.png)   
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2222.png)   
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2223.png)  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2222.png)  
 ### 10.（可选）将 VideoCapture 与其他用例结合使用
 前面的 VideoCapture 步骤演示了 Preview 和 VideoCapture 的组合，所有设备都支持此组合（如设备功能表中所述）。  
 在这一步中，我们会将 ImageCapture 用例添加到现有的 VideoCapture + Preview 组合中，以演示 Preview + ImageCapture + VideoCapture。  
 对于我的版本来说：
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2224.png)    
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2223.png)    
 支持Preview + VideoCapture + ImageCapture和Preview + ImageCapture+ ImageAnalysis
