@@ -8,17 +8,17 @@
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/221.png)  
 ### 2.准备环境
 #### 2.1添加 Gradle 依赖项
-打开 CameraXApp.app 模块的 build.gradle 文件，并添加 CameraX 依赖项  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/222.png)  
-#### 2.2Codelab 使用 ViewBinding，在 android 代码块的末尾，紧跟在 buildTypes 之后，添加以下代码：  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/223.png)  
-出现提示时，点击 Sync Now，我们就可以在应用中使用 CameraX 了  
+打开 CameraXApp.app 模块的 build.gradle 文件，并添加 CameraX 依赖项   
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/222.png)   
+#### 2.2Codelab 使用 ViewBinding，在 android 代码块的末尾，紧跟在 buildTypes 之后，添加以下代码：   
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/223.png)   
+出现提示时，点击 Sync Now，我们就可以在应用中使用 CameraX 了   
 ### 3.创建 Codelab 布局
-#### 3.1打开位于 res/layout/activity_main.xml 的 activity_main 布局文件，并将其替换为以下代码。
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/224.png)  
+#### 3.1打开位于 res/layout/activity_main.xml 的 activity_main 布局文件，并将其替换为以下代码。  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/224.png)   
 #### 3.2使用以下代码更新 res/values/strings.xml 文件
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/225.png)  
-### 4.设置 MainActivity.kt
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/225.png)   
+### 4.设置 MainActivity.kt  
 ````
 import android.Manifest
 import android.content.ContentValues
@@ -119,21 +119,21 @@ class MainActivity : AppCompatActivity() {
 
 ````
 ### 5.请求必要权限
-打开 AndroidManifest.xml，然后将以下代码行添加到 application 标记之前：  
+#### 5.1打开 AndroidManifest.xml，然后将以下代码行添加到 application 标记之前：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/226.png)   
 添加代码到 MainActivity.kt. 中，用于授予相机权限：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/227.png)   
-这里需要添加：
+这里需要添加：  
 `@SuppressLint("MissingSuperCall")`
 否则系统报错
 ### 6.实现 Preview 用例
-在startCamera()添加  
+#### 6.1在startCamera()添加  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/228.png)   
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/229.png)   
-此时，可以看到CameraX app界面预览，如下：
+此时，可以看到CameraX app界面预览，如下：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2210.png)   
 ### 7.实现 ImageCapture 用例
-添加代码到 takePhoto() 方法中：
+#### 7.1添加代码到 takePhoto() 方法中：
 ````
 private fun takePhoto() {
     // Get a stable reference of the modifiable image capture use case
@@ -177,24 +177,23 @@ private fun takePhoto() {
     )
 }
 ````
-需要在startCamera()中添加imagaCapture的权限：  
+#### 7.2需要在startCamera()中添加imagaCapture的权限：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2211.png)   
-重新运行应用，然后按 Take Photo。屏幕上应该会显示一个消息框，我们会在日志中看到一条消息：    
+#### 7.3重新运行应用，然后按 Take Photo。屏幕上应该会显示一个消息框，我们会在日志中看到一条消息：      
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2212.png)     
 新拍摄的照片会保存到 MediaStore 中，我们可以使用任何 MediaStore 应用查看这些照片  
 ### 8.实现 ImageAnalysis 用例
-将此分析器添加为 MainActivity.kt 中的内部类。分析器会记录图像的平均亮度。    
-如需创建分析器，我们会替换实现 ImageAnalysis.Analyzer 接口的类中的 analyze 函数。    
+#### 8.1将此分析器添加为 MainActivity.kt 中的内部类。     
+分析器会记录图像的平均亮度，如需创建分析器，我们会替换实现 ImageAnalysis.Analyzer 接口的类中的 analyze 函数。      
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2213.png)    
-在 startCamera() 方法中，将此代码添加到 imageCapture 代码下。  
+#### 8.2在 startCamera() 方法中，将此代码添加到 imageCapture 代码下。  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2214.png)    
-提供相机权限，更新 cameraProvider 上的 bindToLifecycle() 调用，以包含 imageAnalyzer。  
+#### 8.3提供相机权限，更新 cameraProvider 上的 bindToLifecycle() 调用，以包含 imageAnalyzer。  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2215.png)   
-立即运行应用！它会大约每秒在 logcat 中生成一个类似于下面的消息。  
+#### 8.4立即运行应用！它会大约每秒在 logcat 中生成一个类似于下面的消息。  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2216.png)   
 ### 9.实现 VideoCapture 用例
-添加 captureVideo() 方法：该方法可以控制 VideoCapture 用例的启动和停止  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2217.png)   
+#### 9.1添加 captureVideo() 方法：该方法可以控制 VideoCapture 用例的启动和停止   
 ````
 / Implements VideoCapture use case, including start and stop capturing.
 private fun captureVideo() {
@@ -265,13 +264,13 @@ private fun captureVideo() {
         }
 }
 ````
-在 startCamera() 中，将以下代码放置在 preview 创建行之后。这将创建 VideoCapture 用例。  
+#### 9.2在 startCamera() 中，将以下代码放置在 preview 创建行之后。这将创建 VideoCapture 用例。  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2217.png)   
-（可选）同样在 startCamera() 中，通过删除或注释掉以下代码来停用 imageCapture 和 imageAnalyzer 用例：  
+#### 9.3（可选）同样在 startCamera() 中，通过删除或注释掉以下代码来停用 imageCapture 和 imageAnalyzer 用例：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2218.png)  
-将 Preview + VideoCapture 用例绑定到生命周期相机。仍在 startCamera() 内，将 cameraProvider.bindToLifecycle() 调用替换为以下代码：  
+#### 9.4将 Preview + VideoCapture 用例绑定到生命周期相机。仍在 startCamera() 内，将 cameraProvider.bindToLifecycle() 调用替换为以下代码：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/2219.png)   
-录制一些剪辑：
+#### 9.5运行并录制一些剪辑：
 •	按“START CAPTURE”按钮。请注意，图片说明会变为“STOP CAPTURE”。
 •	录制几秒钟或几分钟的视频。
 •	按“STOP CAPTURE”按钮（和 start capture 按钮是同一个按钮）。
