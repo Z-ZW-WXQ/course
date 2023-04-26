@@ -1,19 +1,19 @@
 # 1.实验内容——Notebook基本概念
 ## 1.1熟悉Notebook的快捷键
 使用Ctrl + Shift + P命令可以查看所有Notebook支持的命令。
-【图片1】
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/301.png)    
 ## 1.2掌握Notebook中Cell的两种模式（Edit和Command）
-在命名模式下，一些快捷键将十分有帮助:
-    &ensp;&ensp;&ensp;&ensp;上下键头可以上下cell移动
-    &ensp;&ensp;&ensp;&ensp;A 或者 B在上方或者下方插入一个cell
-    &ensp;&ensp;&ensp;&ensp;M 将转换活动cell为Markdown cell
-    &ensp;&ensp;&ensp;&ensp;Y 将设置活动cell为代码 cell
-    &ensp;&ensp;&ensp;&ensp;D+D（两次）删除cell
-    &ensp;&ensp;&ensp;&ensp;Z 撤销删除
-    &ensp;&ensp;&ensp;&ensp;H 打开所有快捷键的说明
-在编辑模式，Ctrl + Shift + -将以光标处作为分割点，将cell一分为二。
-【图片2】
-【图片3】
+在命名模式下，一些快捷键将十分有帮助:  
+    &ensp;&ensp;&ensp;&ensp;上下键头可以上下cell移动  
+    &ensp;&ensp;&ensp;&ensp;A 或者 B在上方或者下方插入一个cell  
+    &ensp;&ensp;&ensp;&ensp;M 将转换活动cell为Markdown cell  
+    &ensp;&ensp;&ensp;&ensp;Y 将设置活动cell为代码 cell  
+    &ensp;&ensp;&ensp;&ensp;D+D（两次）删除cell  
+    &ensp;&ensp;&ensp;&ensp;Z 撤销删除  
+    &ensp;&ensp;&ensp;&ensp;H 打开所有快捷键的说明  
+在编辑模式，Ctrl + Shift + -将以光标处作为分割点，将cell一分为二。  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/302.png)    
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/303.png)    
 ## 1.3理解Notebook中Kernel的概念
 Kernel：
 每个notebook都基于一个内核运行，当执行cell代码时，代码将在内核当中运行，运行的结果会显示在页面上。Kernel中运行的状态在整个文档中是延续的，可以跨越所有的cell。这意思着在一个Notebook某个cell定义的函数或者变量等，在其他cell也可以使用。例如：
@@ -532,7 +532,7 @@ bin_sizes, _, _ = plt.hist(df.year[non_numberic_profits], bins=range(1955, 2006)
 
 
     
-![png](output_27_0.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_27_0.png)    
     
 
 
@@ -610,7 +610,8 @@ plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005'
 
 
     
-![png](output_36_0.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_36_0.png) 
+
     
 
 
@@ -625,7 +626,7 @@ plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005
 
 
     
-![png](output_38_0.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_38_0.png) 
     
 
 
@@ -648,17 +649,17 @@ fig.tight_layout()
 
 
     
-![png](output_40_0.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_40_0.png) 
     
 
 
-可见，不同公司之间的收入和利润差距惊人，那么到底前10%和后10%的公司谁的波动更大了？此外，还有很多有价值的信息值得进一步挖掘。
+可见，不同公司之间的收入和利润差距惊人，那么到底前10%和后10%的公司谁的波动更大了？此外，还有很多有价值的信息值得进一步挖掘。  
 
-# 5.Jupyter Notebook扩展工具
-Jupter Notebook的扩展工具(extensions)可以提供丰富的附加功能，例如代码补全、内容目录、变量检查等。本节演示如何安装扩展工具和启用代码补全功能。
-首先Anaconda Navigator中启动命令行终端:
-【图片4】
-在弹出的终端中依次输入下面4条命令，注意要耐心等待命令执行完成。
+# 5.Jupyter Notebook扩展工具  
+Jupter Notebook的扩展工具(extensions)可以提供丰富的附加功能，例如代码补全、内容目录、变量检查等。本节演示如何安装扩展工具和启用代码补全功能。  
+首先Anaconda Navigator中启动命令行终端:  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/304.png) 
+在弹出的终端中依次输入下面4条命令，注意要耐心等待命令执行完成。  
 
 pip install jupyter_contrib_nbextensions
 
@@ -669,11 +670,11 @@ pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
 
 等待最后一条指令完成即可。完成之后，重新打开Jupyter Notebook启动页面，可以看到：
-【图片5】
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/305.png) 
 点击Nbextensions标签，勾选Hinterland：
-【图片6】
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/306.png) 
 接下来可以在notebook进行验证，Tab健可以补全或者选择代码。
-【图片7】
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/307.png) 
 
 
 ```python
