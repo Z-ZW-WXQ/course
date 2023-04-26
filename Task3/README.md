@@ -41,7 +41,7 @@ print('%d squared is %d' % (x, y))
 
 注意：Restart Kernal将清空保存在内存中的变量。同时，在浏览器中关闭一个正在运行的notebook页面，并未真正关闭终止Kernel的运行，其还是后台执行。要真正关闭，可选择File > Close and Halt，或者Kernel > Shutdown。
 
-以下教程将分两个例子实现基本的Notebook编写，包括简单的Python程序和Python数据分析的例子。首先，重命名文档，更改Untitled并输入相关文件名。注意，在写作过程中，常用Ctrl + S保存已有的文档。
+以下教程将分两个例子实现基本的Notebook编写，包括简单的Python程序和Python数据分析的例子。
 
 # 2.实验内容——熟悉基本的Python语法
 掌握Python基本语法并编写选择排序算法：
