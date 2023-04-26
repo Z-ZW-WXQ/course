@@ -91,11 +91,12 @@ import seaborn as sns
 ```
 
 pandas用于数据处理，matplotlib用于绘图，seaborn使绘图更美观。第一行不是python命令，而被称为line magic。%表示作用与一行，%%表示作用于全文。此处%matplotlib inline 表示使用matlib画图，并将图片输出。
-随后，加载数据集。
+随后，加载并输出数据集。
 
 
 ```python
 df  = pd.read_csv('fortune500.csv')
+df
 ```
 
 
