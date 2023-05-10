@@ -56,7 +56,8 @@ for (i in 0..MAX_RESULT_DISPLAY-1){
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/407.png)  
 # 6.最终运行效果
 真机运行结果：  
-<!-- ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg  =100x50)     -->
- <img src="[./xxx.png](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg)" width = "300" height = "200"  align=center />
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg  =100x50)    
+
 虚拟设备运行结果：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/405.png)    
+ <img src="[./xxx.png](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg)" width = "300" height = "200"  align=center />
