@@ -53,7 +53,8 @@ for (i in 0..MAX_RESULT_DISPLAY-1){
 # 5.以物理设备重新运行start模块
 手机通过USB接口连接开发平台，并设置手机开发者选项允许调试。  
 选择真实物理机（而不是模拟器）运行start模块  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/407.png)  
+<!-- ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/407.png)   -->
+ <img src="[./xxx.png](https://github.com/Z-ZW-WXQ/course/blob/master/img/407.png)" width = "300" height = "200"  align=center />
 # 6.最终运行效果
 真机运行结果：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg  =100x50)    
