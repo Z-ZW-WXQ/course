@@ -297,7 +297,7 @@ plt.show()
 
 
     
-![png](output_9_0.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_9_0.png)    
     
 
 
