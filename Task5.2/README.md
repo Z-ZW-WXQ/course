@@ -71,37 +71,37 @@ for i, img_path in enumerate(next_rock+next_paper+next_scissors):
 
 
     
-![png](output_5_0.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_5_0.png)    
     
 
 
 
     
-![png](output_5_1.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_5_1.png)    
     
 
 
 
     
-![png](output_5_2.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_5_2.png)    
     
 
 
 
     
-![png](output_5_3.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_5_3.png)    
     
 
 
 
     
-![png](output_5_4.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_5_4.png)    
     
 
 
 
     
-![png](output_5_5.png)
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/output_5_5.png)    
     
 
 
