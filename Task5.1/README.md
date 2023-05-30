@@ -7,7 +7,7 @@
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/502.png)    
 这里有我的conda安装内容，包括tflite-model-maker  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/503.png)    
-## 1.3 下载完成，测试tensorflow以及tflite-model-maker模块是否能成功导入
+## 1.3 下载完成，测试tensorflow以及tflite-model-maker模块是否能成功导入  
 
 
 
