@@ -1,7 +1,7 @@
 # 1.模块环境构建
 ## 1.1打开Android Studio，选择“Open an Existing Project”，运行TFLClassify-main, 项目包含两个module：finish 和 start，finish模块是已经完成的项目，start则是本项目实践的模块。
 构建模块并编译代码   
-允许应用获取手机摄像头的权限，得到下述效果图，界面利用随机数表示虚拟的识别结果。   
+允许应用获取手机摄像头的权限，得到下述效果图，界面利用随机数表示虚拟的识别结果。 (这里先采用虚拟设备)  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/401.png)    
 # 2.向应用中添加TensorFlow Lite
 ## 2.1选择"start"模块，选择File，然后New>Other>TensorFlow Lite Mode  
@@ -51,8 +51,14 @@ for (i in 0..MAX_RESULT_DISPLAY-1){
 // END - Placeholder code at the start of the codelab. Comment this block of code out.
 ```
 # 5.以物理设备重新运行start模块
+手机通过USB接口连接开发平台，并设置手机开发者选项允许调试。  
+选择真实物理机（而不是模拟器）运行start模块  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/407.png)  
 # 6.最终运行效果
 真机运行结果：  
-![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg)    
+<!-- ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg)     -->
+<img src="https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg" width="300" height="550" align=center>
+
 虚拟设备运行结果：  
 ![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/405.png)    
+<!--  <img src="[image](https://github.com/Z-ZW-WXQ/course/blob/master/img/406.jpg)" width = "300" height = "200"  align=center /> -->
