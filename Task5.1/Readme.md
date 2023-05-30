@@ -1,11 +1,11 @@
 # 1.预备工作
 ## 1.1 创建tensorflow虚拟环境并激活
-【图片1】  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/501.png)    
 ## 1.2 在虚拟环境中下载tflite-model-maker
 打开Anaconda控制台，输入pip install tflite-model-maker  
-【图片2】  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/502.png)    
 这里有我的conda安装内容，包括pip install tflite-model-maker  
-【图片3】  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/503.png)    
 ## 1.3 下载完成，测试tensorflow以及tflite-model-maker模块是否能成功导入
 
 
@@ -28,11 +28,11 @@ import matplotlib.pyplot as plt
     2.9.3
     
 
-出现ImportError: cannot import name 'array_record_module' from 'array_record.python'
-千万不要重装或升级array_record_module！！！
-问题我在github上找到了解决方法，将tensorflow-datasets由4.9.0降级为4.8.3，问题得以解决。
-【图片4】
-警告可忽略
+出现ImportError: cannot import name 'array_record_module' from 'array_record.python'  
+千万不要重装或升级array_record_module！！！  
+问题我在github上找到了解决方法，将tensorflow-datasets由4.9.0降级为4.8.3，问题得以解决。  
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/504.png)    
+警告可忽略  
 # 2.模型训练
 ## 2.1 获取数据
 本实验先从较小的数据集开始训练
@@ -165,4 +165,4 @@ print(current_dir)
     D:\apache-maven-3.8.5\maven-repo\pythontest1\.idea\软件实践
     
 
-【图片5】
+![image](https://github.com/Z-ZW-WXQ/course/blob/master/img/505.png)    
